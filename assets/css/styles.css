@@ -10238,3 +10238,16 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+.header-image {
+  height: 450px; 
+  width: 450px; 
+  border-radius: 50%
+}
+
+@media only screen and (max-width: 700px) {
+  .header-image {
+  height: 300px; 
+  width: 300px; 
+  border-radius: 50%
+}
+}
